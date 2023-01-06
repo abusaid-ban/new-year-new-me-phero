@@ -61,8 +61,7 @@
 
 .image-part {
     margin-top: 100px;
-    background: #F15B22;
-    border-radius: 50%;
+   
 }
 
 .text-part {
@@ -73,7 +72,7 @@
     font-weight: 700;
     font-size: 40px;
     color: #151414;
-    padding-bottom:20px;
+    padding-bottom: 20px;
     padding-right: 200px;
 }
 
@@ -81,13 +80,58 @@
     font-weight: 400;
     font-size: 16px;
     color: #444343;
-    padding-bottom:15px;
+    padding-bottom: 15px;
     padding-right: 205px;
 
 }
-.failures{
+
+.failures {
     font-weight: 300;
     font-size: 16px;
     color: #444343;
 
+}
+
+/* section part2 style */
+.section2 {
+    margin-top: 30px;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    padding-bottom: 15px;
+}
+.images img{
+    padding-left:10px;
+    
+}
+#i{
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.img-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    
+}
+
+.img-description {
+    font-weight: 500;
+    font-size: 15px;
+    color: #737272;
+    
+}
+.image{
+    text-align: center;
 }
