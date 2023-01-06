@@ -54,6 +54,7 @@
     display: flex;
     justify-content: space-between;
     gap: 140px;
+    align-items: center;
 
 
 }
@@ -72,14 +73,16 @@
     font-weight: 700;
     font-size: 40px;
     color: #151414;
-    padding-bottom:10px;
+    padding-bottom:20px;
+    padding-right: 200px;
 }
 
 .text-description {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
-    padding-bottom: 5px;
+    padding-bottom:15px;
+    padding-right: 205px;
 
 }
 .failures{
