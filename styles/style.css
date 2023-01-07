@@ -143,7 +143,8 @@
 /* start section 3 style */
 .section3 {
     margin: 70px 150px 70px 150px;
-    background-image: url('../images/watch.png'), linear-gradient(to left, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0));
+    /* background-image: url('../images/watch.png'), linear-gradient(to left, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0)); */
+    background: linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0)), url('../images/watch.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: fixed;
