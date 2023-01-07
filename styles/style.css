@@ -61,7 +61,7 @@
 
 .image-part {
     margin-top: 100px;
-   
+
 }
 
 .text-part {
@@ -104,11 +104,13 @@
     color: #151414;
     padding-bottom: 15px;
 }
-.images img{
-    padding-left:10px;
-    
+
+.images img {
+    padding-left: 10px;
+
 }
-#i{
+
+#i {
     text-align: center;
 }
 
@@ -123,15 +125,118 @@
     font-weight: 700;
     font-size: 25px;
     color: #151414;
-    
+
 }
 
 .img-description {
     font-weight: 500;
     font-size: 15px;
     color: #737272;
-    
+
 }
-.image{
+
+.image {
     text-align: center;
+}
+
+/* end section 2 style */
+/* start section 3 style */
+.section3 {
+    margin: 70px 150px 70px 150px;
+    background-image: url('../images/watch.png'), linear-gradient(to left, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: fixed;
+    height: 200px;
+    text-align: center;
+
+
+}
+
+.container {
+    text-align: left;
+    padding: 30px 500px 0 30px;
+}
+
+.advice {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.btn2 {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F15B22;
+    padding: 3px 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+
+}
+
+/* end section3 */
+/* start footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #151414;
+    width: 100%;
+    height: 400px;
+
+}
+
+.parent {
+    padding: 80px 200px 90px 70px;
+
+}
+
+.f-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.f-description,
+h6 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 7px;
+}
+
+.img-icon {
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+
+.right-parent {
+    padding: 80px 200px 90px 70px;
+
+}
+
+.for-contact {
+    font-weight: 600;
+    font-size: 25px;
+    color: #F8F8F8;
+    padding-bottom: 10px;
+}
+ input{
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding:7px 10px;
+    margin-bottom: 15px;
+
+}
+.btn-4{
+    padding:10px 20px;
+    border-radius: 6px;
+    color:#F15B22;
+    font-size: 16px;
+    font-weight: 400px;
+
 }
